@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+## Bluetooth
+bluetooth.device.default_name=ADT-3
+
 ## FRP
 ro.frp.pst=/dev/block/by-name/frp
 
