@@ -9,6 +9,7 @@ ro.frp.pst=/dev/block/by-name/frp
 
 # Dolby
 ro.vendor.platform.support.dolbyvision=false
+vendor.media.support.dolbyvision
 
 ## NRDP
 ro.vendor.nrdp.audio.mixer.buffersize=1024
