@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include vendor/askey/deadpool/BoardConfigVendor.mk
-
 DEVICE_PATH := device/askey/deadpool
 
 ## Bluetooth
@@ -35,3 +33,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
+
+## Include the proprietary BoardConfig makefile
+include vendor/askey/deadpool/BoardConfigVendor.mk
