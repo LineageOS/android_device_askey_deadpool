@@ -1,10 +1,8 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
-DEVICE_PATH := device/askey/deadpool
 
 $(call inherit-product, vendor/askey/deadpool/deadpool-vendor.mk)
 
@@ -16,7 +14,7 @@ PRODUCT_PACKAGES += \
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
+    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
 ## Kernel Modules
 PRODUCT_PACKAGES += \
@@ -24,6 +22,6 @@ PRODUCT_PACKAGES += \
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(LOCAL_PATH)/overlay
 
 include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
