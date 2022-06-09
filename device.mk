@@ -8,8 +8,6 @@ DEVICE_PATH := device/askey/deadpool
 
 $(call inherit-product, vendor/askey/deadpool/deadpool-vendor.mk)
 
-$(call inherit-product, device/amlogic/g12-common/g12.mk)
-
 ## Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
@@ -26,4 +24,8 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+## Wi-Fi Firmware
 include hardware/amlogic/kernel-modules/dhd-driver/firmware/firmware.mk
+
+## Common Tree
+$(call inherit-product, device/amlogic/g12-common/g12.mk)
