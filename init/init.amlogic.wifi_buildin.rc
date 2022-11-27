@@ -5,3 +5,7 @@
 
 on boot
     insmod /vendor/lib/modules/dhd.ko firmware_path=/wifi/ nvram_path=/wifi/
+
+on post-fs-data
+    # Prevent suspend until Bluetooth remote wake is working
+    write /sys/power/wake_lock deadpool-staywake
