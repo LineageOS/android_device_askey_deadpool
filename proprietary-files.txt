@@ -1,5 +1,5 @@
 ### All blobs from this list, unless pinned and noted as otherwise,
-##  are from adt3-user 12 STT1.211025.001.Z4 7928920 release-keys.
+##  are from adt3-user 13 TTT1.220909.001.B7 9305992 release-keys.
 
 ## Keylayout
 vendor/usr/keylayout/Vendor_0001_Product_0001.kl
@@ -13,4 +13,3 @@ vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
 vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta
 vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
 vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
-vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c5ca.ta
