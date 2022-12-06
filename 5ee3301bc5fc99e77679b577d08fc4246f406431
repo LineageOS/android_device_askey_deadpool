@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdf245c1_112150c9",
+        "filename": "init-files/init.amlogic.wifi.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-12-06T07:12:05Z",
+      "side": 1,
+      "message": "multihal shit - we can trim this down.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 0
+      },
+      "revId": "5ee3301bc5fc99e77679b577d08fc4246f406431",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
