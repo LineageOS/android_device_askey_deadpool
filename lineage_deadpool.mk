@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -23,6 +23,6 @@ PRODUCT_NAME := lineage_deadpool
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \
-    PRIVATE_BUILD_DESC="adt3-user 13 TTT1.220909.001.B7 9305992 release-keys"
+    PRIVATE_BUILD_DESC="adt3-user 13 TTT1.230205.001 9565391 release-keys"
 
-BUILD_FINGERPRINT := ADT-3/adt3/adt3:13/TTT1.220909.001.B7/9305992:user/release-keys
+BUILD_FINGERPRINT := ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys
