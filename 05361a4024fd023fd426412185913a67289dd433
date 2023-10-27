@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "354616db_caae1e95",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T17:43:08Z",
+      "side": 0,
+      "message": "Last trace of this config remounts to Android 7.1. :S",
+      "range": {
+        "startLine": 9,
+        "startChar": 16,
+        "endLine": 9,
+        "endChar": 37
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
