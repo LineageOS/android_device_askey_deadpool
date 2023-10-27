@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68c6dd89_4929e2e2",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T20:31:15Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "354616db_caae1e95",
+      "range": {
+        "startLine": 9,
+        "startChar": 16,
+        "endLine": 9,
+        "endChar": 37
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "82a69354_8493505a",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-10-27T17:46:14Z",
       "side": 0,
       "message": "sysprop: bluetooth.profile.hfp.ag.enabled",
+      "range": {
+        "startLine": 10,
+        "startChar": 16,
+        "endLine": 10,
+        "endChar": 40
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e656407_aada4b60",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T20:31:15Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "82a69354_8493505a",
       "range": {
         "startLine": 10,
         "startChar": 16,
@@ -70,6 +118,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d744beb7_27bbaf1b",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T20:31:15Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "c0627d48_588740d5",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 51
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "18fcb2de_94b82f71",
@@ -83,6 +155,30 @@
       "writtenOn": "2023-10-27T17:46:14Z",
       "side": 0,
       "message": "sysprop: bluetooth.profile.pbap.server.enabled",
+      "range": {
+        "startLine": 12,
+        "startChar": 16,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ce4e076_20ddd6a4",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T20:31:15Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "18fcb2de_94b82f71",
       "range": {
         "startLine": 12,
         "startChar": 16,
