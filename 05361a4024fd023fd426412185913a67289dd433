@@ -22,6 +22,75 @@
       },
       "revId": "05361a4024fd023fd426412185913a67289dd433",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82a69354_8493505a",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T17:46:14Z",
+      "side": 0,
+      "message": "sysprop: bluetooth.profile.hfp.ag.enabled",
+      "range": {
+        "startLine": 10,
+        "startChar": 16,
+        "endLine": 10,
+        "endChar": 40
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0627d48_588740d5",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T17:46:14Z",
+      "side": 0,
+      "message": "sysprop: bluetooth.profile.opp.enabled",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 51
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18fcb2de_94b82f71",
+        "filename": "rro_overlays/BluetoothOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T17:46:14Z",
+      "side": 0,
+      "message": "sysprop: bluetooth.profile.pbap.server.enabled",
+      "range": {
+        "startLine": 12,
+        "startChar": 16,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "05361a4024fd023fd426412185913a67289dd433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
