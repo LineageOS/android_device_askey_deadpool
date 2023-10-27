@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47fdd73e_4558c9c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-27T17:34:10Z",
+      "side": 1,
+      "message": "I am wondering if we should remove the configs or actually replace those with the equivalent sysprop. Google didn\u0027t care to do that on ADT-3, as far as I can tell, since they have the defaults in vendor.prop:\n\nbluetooth.profile.asha.central.enabled\u003dtrue\nbluetooth.profile.a2dp.source.enabled\u003dtrue\nbluetooth.profile.avrcp.target.enabled\u003dtrue\nbluetooth.profile.gatt.enabled\u003dtrue\nbluetooth.profile.hfp.ag.enabled\u003dtrue\nbluetooth.profile.hid.host.enabled\u003dtrue\nbluetooth.profile.mcp.server.enabled\u003dtrue\nbluetooth.profile.opp.enabled\u003dtrue\nbluetooth.profile.pan.nap.enabled\u003dtrue\nbluetooth.profile.pan.panu.enabled\u003dtrue\n\nWhat do you think?",
+      "revId": "389666e84a8789326314262680f2dea74dfeb367",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
