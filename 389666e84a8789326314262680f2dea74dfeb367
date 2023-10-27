@@ -50,6 +50,24 @@
       "message": "not sure the best answer.\n\nI would think migrating to sysprops, google half assed stock on ADT3.",
       "revId": "389666e84a8789326314262680f2dea74dfeb367",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a900618d_493bdb31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-10-27T20:58:14Z",
+      "side": 1,
+      "message": "Iiuc, some of the bt profiles just don\u0027t apply on atv at all. But I\u0027d lean towards setting what was intended over what actually happened, unless that would knowingly break something. So yeah, set the props.",
+      "parentUuid": "5bf02098_6cd26d86",
+      "revId": "389666e84a8789326314262680f2dea74dfeb367",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
