@@ -33,6 +33,23 @@
       "message": "Aaron, would also like to hear your opinion.",
       "revId": "389666e84a8789326314262680f2dea74dfeb367",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03d8e139_f613f662",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-10-27T17:56:45Z",
+      "side": 1,
+      "message": "not sure the best answer.\n\nI would think migrating to sysprops, google half assed stock on ADT3.",
+      "revId": "389666e84a8789326314262680f2dea74dfeb367",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
