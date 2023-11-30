@@ -1,0 +1,3 @@
+# Firmware - from adt3-user 13 TTT1.230205.001 9565391 release-keys - (factory image).
+
+bootloader.img
