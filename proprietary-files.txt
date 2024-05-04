@@ -1,9 +1,6 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
 ## are from adt3-user 13 TTT1.230205.001 9565391 release-keys.
 
-## Keylayout
-vendor/usr/keylayout/Vendor_0001_Product_0001.kl
-
 ## DRM
 vendor/lib/liboemcrypto.so
 vendor/lib/libsecmem.so
