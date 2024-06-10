@@ -12,6 +12,7 @@ export DEVICE=deadpool
 export DEVICE_COMMON=g12-common
 export TARGET_SOC=g12a
 export VENDOR=askey
+export VENDOR_BRAND="${VENDOR}"
 export VENDOR_COMMON=amlogic
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
