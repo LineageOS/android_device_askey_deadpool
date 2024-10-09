@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ad1efec_7589d802",
+        "filename": "proprietary-files-tee.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-09T21:15:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9131bfd9_0cb588fe",
+      "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d6af6564_d5bdce29",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "not sure tbh, but wade wanted it for L1",
       "parentUuid": "d6af6564_d5bdce29",
+      "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dc6e641_4feb46c5",
+        "filename": "proprietary-files-tee.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-09T21:15:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d02062b3_5fa59453",
       "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
