@@ -9,12 +9,6 @@ vendor/lib/libsecmem.so
 vendor/etc/permissions/droidlogic.software.core.xml
 vendor/framework/droidlogic.software.core.jar
 
-## NRDP - from wade - sti6130d350-user 12 SC 20221221 release-keys
-vendor/etc/nrdp_audio_platform_capabilities.json|36f8eb78f578056b2e2834befbf6d09376149e37
-vendor/etc/nrdp_audio_platform_capabilities_ms12.json|93d1369c8b96520afacda3437ef84eec6ee02b29
-vendor/etc/nrdp_platform_capabilities.json|e9c3d81f52aa638b314eb60ce135d77de7c1012b
-vendor/etc/permissions/nrdp.xml|2ba275df330d747e84b3b370e0da0d7f74bb1a4e
-
 ## ODM
 odm/etc/firmware/firmware.le
 odm/etc/tvconfig/pq/pq.db
@@ -22,8 +16,20 @@ odm/etc/tvconfig/pq/pq_default.ini
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
 
-## TEE - SOC Specific
-vendor/bin/hw/android.hardware.security.keymint-service.amlogic
+## OEM Lock
+vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic
+vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc
+vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml
+
+## Playready
+vendor/bin/hw/android.hardware.drm@1.4-service.playready
+vendor/etc/drm/playready/bgroupcert.dat
+vendor/etc/drm/playready/zgpriv.dat
+vendor/etc/drm/playready/zgpriv_protected.dat
+vendor/etc/init/android.hardware.drm@1.4-service.playready.rc
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xml
+vendor/lib/libplayready.so
+vendor/lib/libplayreadymediadrmplugin.so
 
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
@@ -31,3 +37,15 @@ vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
 vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta
 vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
 vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
+
+## TEE
+vendor/bin/tee-supplicant
+vendor/bin/tee_preload_fw
+vendor/bin/hw/android.hardware.security.keymint-service.amlogic
+vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc
+vendor/etc/init/tee-supplicant.rc
+vendor/etc/init/tee_preload_fw.rc
+vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml
+vendor/lib/libtee_load_video_fw.so
+vendor/lib/libteec.so
