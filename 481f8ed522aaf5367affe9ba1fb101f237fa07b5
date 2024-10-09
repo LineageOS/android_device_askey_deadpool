@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9131bfd9_0cb588fe",
+        "filename": "proprietary-files-tee.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-09T21:03:35Z",
+      "side": 1,
+      "message": "uhhhh - on Android 11 blobs I\u0027m confident it used to work",
+      "parentUuid": "86019ec4_1d7b62cf",
+      "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d6af6564_d5bdce29",
         "filename": "proprietary-files-tee.txt",
         "patchSetId": 3
@@ -31,6 +49,24 @@
       "writtenOn": "2024-10-09T20:55:30Z",
       "side": 1,
       "message": "What is this for?",
+      "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d02062b3_5fa59453",
+        "filename": "proprietary-files-tee.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-09T21:03:35Z",
+      "side": 1,
+      "message": "not sure tbh, but wade wanted it for L1",
+      "parentUuid": "d6af6564_d5bdce29",
       "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
