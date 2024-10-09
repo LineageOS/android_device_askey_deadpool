@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86019ec4_1d7b62cf",
+        "filename": "proprietary-files-tee.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-10-09T20:55:30Z",
+      "side": 1,
+      "message": "Does it make sense to keep this considering that Netflix doesn\u0027t work?",
+      "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6af6564_d5bdce29",
+        "filename": "proprietary-files-tee.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-10-09T20:55:30Z",
+      "side": 1,
+      "message": "What is this for?",
+      "revId": "481f8ed522aaf5367affe9ba1fb101f237fa07b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
