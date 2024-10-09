@@ -9,21 +9,12 @@ vendor/lib/libsecmem.so
 vendor/etc/permissions/droidlogic.software.core.xml
 vendor/framework/droidlogic.software.core.jar
 
-## NRDP - from wade - sti6130d350-user 12 SC 20221221 release-keys
-vendor/etc/nrdp_audio_platform_capabilities.json|36f8eb78f578056b2e2834befbf6d09376149e37
-vendor/etc/nrdp_audio_platform_capabilities_ms12.json|93d1369c8b96520afacda3437ef84eec6ee02b29
-vendor/etc/nrdp_platform_capabilities.json|e9c3d81f52aa638b314eb60ce135d77de7c1012b
-vendor/etc/permissions/nrdp.xml|2ba275df330d747e84b3b370e0da0d7f74bb1a4e
-
 ## ODM
 odm/etc/firmware/firmware.le
 odm/etc/tvconfig/pq/pq.db
 odm/etc/tvconfig/pq/pq_default.ini
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
-
-## TEE - SOC Specific
-vendor/bin/hw/android.hardware.security.keymint-service.amlogic
 
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
