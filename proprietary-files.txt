@@ -16,9 +16,6 @@ odm/etc/tvconfig/pq/pq_default.ini
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
 
-## TEE - SOC Specific
-vendor/bin/hw/android.hardware.security.keymint-service.amlogic
-
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
 vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
