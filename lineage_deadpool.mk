@@ -28,8 +28,8 @@ PRODUCT_SYSTEM_NAME := adt3
 PRODUCT_SYSTEM_DEVICE := adt3
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
-    TARGET_DEVICE=$(PRODUCT_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
+    BuildFingerprint=ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys \
+    DeviceName=adt3 \
+    DeviceProduct=adt3
