@@ -27,7 +27,6 @@ PRODUCT_NAME := lineage_deadpool
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
     BuildFingerprint=ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys \
-    DeviceName=adt3 \
     DeviceProduct=adt3 \
     SystemDevice=adt3 \
     SystemName=adt3
