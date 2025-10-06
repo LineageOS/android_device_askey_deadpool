@@ -17,7 +17,7 @@ TARGET_DTB_NAME := g12a_s905y2_deadpool
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
-    dhd-driver/bcmdhd.101.10.591.x
+    dhd-driver/bcmdhd.101.10.361.x
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
