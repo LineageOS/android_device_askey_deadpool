@@ -11,6 +11,11 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,brcm_libbt,bdroid_buildcfg_include_dir,$(LOCAL_PATH)/bluetooth/include)
 $(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_deadpool.txt)
 
+## Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/mesondisplay.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/mesondisplay.cfg \
+    $(LOCAL_PATH)/configs/display/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg
+
 ## Init
 PRODUCT_PACKAGES += \
     init.amlogic.wifi_buildin.rc
