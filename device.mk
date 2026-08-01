@@ -14,6 +14,11 @@ $(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_deadpool
 ## Bluetooth firmware
 include hardware/broadcom/libbt/firmware/bluetooth.mk
 
+## Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/mesondisplay.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/mesondisplay.cfg \
+    $(LOCAL_PATH)/configs/display/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg
+
 ## Init
 PRODUCT_PACKAGES += \
     init.amlogic.wifi_buildin.rc
