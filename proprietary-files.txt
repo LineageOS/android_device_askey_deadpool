@@ -6,27 +6,22 @@ product/etc/permissions/privapp-permissions-deadpool.xml
 product/priv-app/DeadpoolService/DeadpoolService.apk
 
 ## DRM
+vendor/lib/libamavutils.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libsecmem.so
 
-## Droidlogic
-vendor/etc/permissions/droidlogic.software.core.xml
-vendor/framework/droidlogic.software.core.jar
-
-## Graphics
-vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.amlogic.so
+## Graphics - from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys
+vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.amlogic.so|789cc44980444d009cceb61d3127c5ab9495aa42
 
 ## ODM
 odm/etc/firmware/firmware.le
 odm/etc/tvconfig/pq/pq.db
 odm/etc/tvconfig/pq/pq_default.ini
-odm/lib/libHwAudio_dcvdec.so
-odm/lib/libHwAudio_dtshd.so
 
-## OEM Lock
-vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic
-vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc
-vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml
+## OEM Lock - from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys
+vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic|971a774522954ccee250d8b3dd8b5d5f41b6ead2
+vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc|10006f9f9c305fdf33ed0bc8745f56fc81bb78e2
+vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml|629a939535c13d6742472ba7bc342c8b0f331f97
 
 ## Playready
 vendor/bin/hw/android.hardware.drm@1.4-service.playready
@@ -48,7 +43,6 @@ vendor/etc/init/tee_preload_fw.rc
 vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml
 vendor/lib/libtee_load_video_fw.so
-vendor/lib/libteec.so
 
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
