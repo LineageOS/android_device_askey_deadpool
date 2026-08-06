@@ -31,6 +31,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.security.sharedsecret-V1-ndk_platform.so', 'android.hardware.security.sharedsecret-V1-ndk.so'),
     'vendor/etc/init/tee-supplicant.rc': blob_fixup()
         .regex_replace('/vendor/lib/', '/vendor/lib/modules/')
+    'vendor/lib/egl/libGLES_mali.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
 }  # fmt: skip
 
 extract_fns: extract_fns_user_type = {
