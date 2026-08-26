@@ -5,6 +5,24 @@
 product/etc/permissions/privapp-permissions-deadpool.xml
 product/priv-app/DeadpoolService/DeadpoolService.apk
 
+## Bluetooth firmware
+vendor/etc/bluetooth/BCM20702.hcd
+vendor/etc/bluetooth/BCM20703A2.hcd
+vendor/etc/bluetooth/BCM2076.hcd
+vendor/etc/bluetooth/BCM4330.hcd
+vendor/etc/bluetooth/BCM43430B0.hcd
+vendor/etc/bluetooth/BCM4345C0.hcd
+vendor/etc/bluetooth/BCM4345C5.hcd
+vendor/etc/bluetooth/BCM4350.hcd
+vendor/etc/bluetooth/BCM4354.hcd
+vendor/etc/bluetooth/BCM4359C0.hcd
+vendor/etc/bluetooth/BCM4362A1.hcd
+vendor/etc/bluetooth/BCM4362A2.hcd
+vendor/etc/bluetooth/bcm43241b4.hcd
+vendor/etc/bluetooth/bcm43341b0.hcd
+vendor/etc/bluetooth/bcm4335c0.hcd
+vendor/etc/bluetooth/bcm43569a2.hcd
+
 ## DRM
 vendor/lib/liboemcrypto.so
 vendor/lib/libsecmem.so
@@ -56,3 +74,10 @@ vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
 vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta
 vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
 vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
+
+## Wi-Fi firmware
+vendor/etc/wifi/4356/config_bcm4356a2_ag.txt:vendor/firmware/wifi/config_bcm4356a2_ag.txt
+vendor/etc/wifi/4356/fw_bcm4356a2_ag.bin:vendor/firmware/wifi/fw_bcm4356a2_ag.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_apsta.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_apsta.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_p2p.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_p2p.bin
+vendor/etc/wifi/4356/nvram_ap6356.txt:vendor/firmware/wifi/nvram_ap6356.txt
