@@ -13,6 +13,9 @@ vendor/lib/libsecmem.so
 vendor/etc/permissions/droidlogic.software.core.xml
 vendor/framework/droidlogic.software.core.jar
 
+## Graphics
+vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.amlogic.so
+
 ## ODM
 odm/etc/firmware/firmware.le
 odm/etc/tvconfig/pq/pq.db
