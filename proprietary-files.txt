@@ -37,16 +37,25 @@ vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xm
 vendor/lib/libplayready.so
 vendor/lib/libplayreadymediadrmplugin.so
 
-## TEE
-vendor/bin/hw/android.hardware.security.keymint-service.amlogic
-vendor/bin/tee-supplicant
-vendor/bin/tee_preload_fw
-vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc
-vendor/etc/init/tee-supplicant.rc
-vendor/etc/init/tee_preload_fw.rc
-vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml
-vendor/lib/libtee_load_video_fw.so
+## TEE - from Dynalink/sti6130d350/sti6130d350:14/UKG3.240613.001/20250327:user/release-keys
+vendor/bin/hw/android.hardware.security.keymint-service.amlogic|d5dbfc1fe17de008a04e173b8497605dd7de4d08|2a6b11f394bb7dda3601e5ece339ac5ea4bcd676
+vendor/bin/tee-supplicant|c8a77ba315bad9a48add1258583d3e963c7c8cee
+vendor/bin/tee_hdcp|bb30dc0d85815c834517b17680db01fde4f3a3c1
+vendor/bin/tee_key_inject|22bdf73c78dbc4f737cac058fb4be0b039f44c11
+vendor/bin/tee_preload_fw|1c0005747cf65ea671b35b54390c0ba243691781
+vendor/bin/tee_provision|5da92d6a72aad6b942744b281b29b5baa4a1a305
+vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc|c0d12ddad0ee0d0a20e3a3b272e8724c384b5de6
+vendor/etc/init/tee-supplicant.rc|7fa12e8b43226317ae95c50473225c61563d35cf
+vendor/etc/init/tee_hdcp.rc|a8998cc2215d5ba5bfdf922b9e8b3e2ff25246a4
+vendor/etc/init/tee_key_inject.rc|27c21a1fd51196385cfbca8ecf80e2487def18df
+vendor/etc/init/tee_preload_fw.rc|c643706088f6379749f0eb344c497b49eb547214
+vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml|371ef8b5997a35e7505519ce538b7cb62696a841
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service-no-rkp.amlogic.xml|721579a75380e38aee043080589e448264eb270e
+vendor/lib/lib_android_keymaster_keymint_utils.so:vendor/lib/lib_android_keymaster_akeymint_utils.so;FIX_SONAME|76bfd7e5a345710fd75bfbf1056b692d8aef5d60|dfcd0f5bfc86d5fd50e161ef69bf0b9990f530ca
+vendor/lib/libcppcose_rkp.so:vendor/lib/libacppcose_rkp.so;FIX_SONAME|ac45684912c71da61422666f6fa22180a5a869f9|fdc158223c0bc989af0ef6b2ee3b58c042e117f8
+vendor/lib/libkeymint.so:vendor/lib/libakeymint.so;FIX_SONAME|1bf5564f7af1cbf3aecbdb2824667774b858a939|1d687ac351fc08e6689a51d97fdd625ca03137bb
+vendor/lib/libkeymint_remote_prov_support.so:vendor/lib/libakeymint_remote_prov_support.so;FIX_SONAME|e0b65f6fe69dd92e6c991821f94b86e56bb48d8f|1bfd7376403fe06f1a9abb1d0b3f27614e481454
+vendor/lib/libtee_load_video_fw.so|263e2226a532fdfb69365521f97a71f19ce72db4
 
 ## TEE Applets
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
