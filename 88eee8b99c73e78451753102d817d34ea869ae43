@@ -16,6 +16,23 @@
       "message": "I\u0027d replace this change with your own, at this point. Also, this is more than just pinning EGL/OEM lock.",
       "revId": "88eee8b99c73e78451753102d817d34ea869ae43",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77576bad_55072324",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-30T17:31:25Z",
+      "side": 1,
+      "message": "Opening",
+      "revId": "88eee8b99c73e78451753102d817d34ea869ae43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
