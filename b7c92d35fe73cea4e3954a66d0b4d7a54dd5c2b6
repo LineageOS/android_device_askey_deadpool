@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67250e10_45a9cafb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-31T18:58:00Z",
+      "side": 1,
+      "message": "apply to https://review.lineageos.org/c/LineageOS/android_device_askey_deadpool/+/499687/",
+      "revId": "b7c92d35fe73cea4e3954a66d0b4d7a54dd5c2b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2322dfcc_5999990f",
+        "filename": "device.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-31T18:58:00Z",
+      "side": 1,
+      "message": "this change doesn\u0027t belong here",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 53
+      },
+      "revId": "b7c92d35fe73cea4e3954a66d0b4d7a54dd5c2b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bf52779_39311993",
+        "filename": "device.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-31T18:58:00Z",
+      "side": 1,
+      "message": "this change doesn\u0027t belong here",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 54
+      },
+      "revId": "b7c92d35fe73cea4e3954a66d0b4d7a54dd5c2b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
