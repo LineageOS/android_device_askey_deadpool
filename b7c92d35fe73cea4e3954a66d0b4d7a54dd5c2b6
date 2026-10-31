@@ -41,6 +41,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8badcd8_8f5c1c25",
+        "filename": "device.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-31T19:08:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2322dfcc_5999990f",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 53
+      },
+      "revId": "b7c92d35fe73cea4e3954a66d0b4d7a54dd5c2b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2bf52779_39311993",
@@ -54,6 +78,30 @@
       "writtenOn": "2026-10-31T18:58:00Z",
       "side": 1,
       "message": "this change doesn\u0027t belong here",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 54
+      },
+      "revId": "b7c92d35fe73cea4e3954a66d0b4d7a54dd5c2b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4401040b_a30ed374",
+        "filename": "device.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-31T19:08:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2bf52779_39311993",
       "range": {
         "startLine": 31,
         "startChar": 0,
