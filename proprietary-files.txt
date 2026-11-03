@@ -64,8 +64,8 @@ vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
 vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
 
 ## Wi-Fi Firmware
-vendor/etc/wifi/4356/config_bcm4356a2_ag.txt:vendor/firmware/wifi/config_bcm4356a2_ag.txt
-vendor/etc/wifi/4356/fw_bcm4356a2_ag.bin:vendor/firmware/wifi/fw_bcm4356a2_ag.bin
-vendor/etc/wifi/4356/fw_bcm4356a2_ag_apsta.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_apsta.bin
-vendor/etc/wifi/4356/fw_bcm4356a2_ag_p2p.bin:vendor/firmware/wifi/fw_bcm4356a2_ag_p2p.bin
-vendor/etc/wifi/4356/nvram_ap6356.txt:vendor/firmware/wifi/nvram_ap6356.txt
+vendor/etc/wifi/4356/config_bcm4356a2_ag.txt:vendor/lib/firmware/config_bcm4356a2_ag.txt
+vendor/etc/wifi/4356/fw_bcm4356a2_ag.bin:vendor/lib/firmware/fw_bcm4356a2_ag.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_apsta.bin:vendor/lib/firmware/fw_bcm4356a2_ag_apsta.bin
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_p2p.bin:vendor/lib/firmware/fw_bcm4356a2_ag_p2p.bin
+vendor/etc/wifi/4356/nvram_ap6356.txt:vendor/lib/firmware/nvram_ap6356.txt
