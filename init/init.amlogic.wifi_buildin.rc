@@ -1,7 +1,0 @@
-##
-## SPDX-FileCopyrightText: The LineageOS Project
-## SPDX-License-Identifier: Apache-2.0
-##
-
-on boot
-    insmod /vendor/lib/modules/dhd.ko firmware_path=/wifi/ nvram_path=/wifi/
