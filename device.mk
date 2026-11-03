@@ -11,10 +11,6 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,brcm_libbt,bdroid_buildcfg_include_dir,$(LOCAL_PATH)/bluetooth/include)
 $(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_deadpool.txt)
 
-## Init
-PRODUCT_PACKAGES += \
-    init.amlogic.wifi_buildin.rc
-
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
