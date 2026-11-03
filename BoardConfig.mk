@@ -39,8 +39,8 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
 BOARD_WLAN_DEVICE := bcmdhd
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
-WIFI_DRIVER_FW_PATH_AP := "/wifi/fw_bcm4356a2_ag_apsta.bin"
-WIFI_DRIVER_FW_PATH_STA := "/wifi/fw_bcm4356a2_ag.bin"
+WIFI_DRIVER_FW_PATH_AP := "fw_bcm4356a2_ag_apsta.bin"
+WIFI_DRIVER_FW_PATH_STA := "fw_bcm4356a2_ag.bin"
 WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
