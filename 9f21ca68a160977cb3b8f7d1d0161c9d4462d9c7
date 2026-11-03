@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b8cd80c_4109e053",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 11
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-03T23:46:00Z",
+      "side": 1,
+      "message": "kang from wade as well",
+      "revId": "9f21ca68a160977cb3b8f7d1d0161c9d4462d9c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
