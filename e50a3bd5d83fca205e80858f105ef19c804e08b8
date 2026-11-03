@@ -16,6 +16,24 @@
       "message": "wade 14 has this, I\u0027d Kang just for the sake of using DRM hal closer to matching common.",
       "revId": "e50a3bd5d83fca205e80858f105ef19c804e08b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69a7951b_632de51e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-03T18:49:47Z",
+      "side": 1,
+      "message": "I agree, and also OEM lock.",
+      "parentUuid": "9d5a98e8_a017c488",
+      "revId": "e50a3bd5d83fca205e80858f105ef19c804e08b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
