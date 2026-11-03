@@ -34,6 +34,24 @@
       "parentUuid": "9d5a98e8_a017c488",
       "revId": "e50a3bd5d83fca205e80858f105ef19c804e08b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1527652d_16ef7275",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-03T19:32:32Z",
+      "side": 1,
+      "message": "that would leave only the egl blob from Jarvis. Which in theory we could even use from wade.\n\nWe could just do Jarvis for common and wade for all device specific kangs?",
+      "parentUuid": "69a7951b_632de51e",
+      "revId": "e50a3bd5d83fca205e80858f105ef19c804e08b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
