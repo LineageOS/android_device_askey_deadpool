@@ -16,6 +16,24 @@
       "message": "kang from wade as well",
       "revId": "9f21ca68a160977cb3b8f7d1d0161c9d4462d9c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6b1101b_8c3d0ffa",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 11
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-04T04:50:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b8cd80c_4109e053",
+      "revId": "9f21ca68a160977cb3b8f7d1d0161c9d4462d9c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
