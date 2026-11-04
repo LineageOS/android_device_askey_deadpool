@@ -15,6 +15,9 @@ vendor.media.support.dolbyvision=false
 ro.vendor.nrdp.audio.mixer.buffersize=1024
 ro.vendor.nrdp.modelgroup=deadpool
 
+## Recovery
+ro.minui.blacklist_input_devices=cec_input
+
 ## SOC
 ro.soc.model=AMLS905Y2
 
